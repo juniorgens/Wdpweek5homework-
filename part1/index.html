@@ -56,6 +56,15 @@
   font-style: italic;
 }
 
+#quote, #author {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+    
     footer {
       margin-top: auto;
       text-align: center;
@@ -67,7 +76,7 @@
 </head>
 <body>
   <h1>Quote generator homework</h1>
-  <h2>Created by TON_NOM TON_ID_ÉTUDIANT</h2> <!-- Remplace par ton nom et ID étudiant -->
+  <h2>Created by Leslie Yonda </h2> <!-- Remplace par ton nom et ID étudiant -->
 
   <div id="quoteBox">
     <p id="quote">Click the button to get a quote!</p>

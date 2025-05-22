@@ -1,0 +1,33 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Mark Language",
+      "Hyper Trainer Markup Language"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which tag is used to create a hyperlink in HTML?",
+    "options": [
+      "<img>",
+      "<a>",
+      "<link>",
+      "<href>"
+    ],
+    "answer": 1
+  },
+  // ... (les 28 autres questions)
+  {
+    "question": "Which input type creates a password field in HTML?",
+    "options": [
+      "text",
+      "password",
+      "secure",
+      "hidden"
+    ],
+    "answer": 1
+  }
+]
